@@ -25,10 +25,4 @@ docker run -d -p 8081:8080 --volume /home/web_application_data/:/home/web_applic
 
 docker exec <container ID> /log_generator.sh
 
-aws s3 cp $filename s3://prodlabassignment/
-
-
-# Set AWS credentials
-ENV AWS_ACCESS_KEY_ID=<Your-Access-Key-ID>
-ENV AWS_SECRET_ACCESS_KEY=<Your-Secret-Access-Key>
-ENV AWS_DEFAULT_REGION=<Your-Region>
+aws s3 cp /home/web_application_data s3://prodlabassignment/
