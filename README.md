@@ -5,9 +5,9 @@ Here I implemented this assignment to create an infra using terraform and perfor
 AWS resources used in his assignment  (EC2 instance, IAM user, IAM Role,IAM Policy, AutoScaling, CloudFront, S3, Route53 )
 
 # Prerequisite:- 
-Create a IAM User and create keys 
-Create a IAM role
-Create a custom IAM policy for s3 e.g., s3:GetObject, s3:PutObject, etc 
+Create a IAM User and create keys.
+Create a IAM role.
+Create a custom IAM policy for s3 e.g., s3:GetObject, s3:PutObject, etc. 
 
 # Infrastructure as Code:-
 Under Terraform dir i was written terraform code for each resource that was specified in assignment and converted as terraform modules.
