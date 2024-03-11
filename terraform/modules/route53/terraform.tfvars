@@ -1,3 +1,0 @@
-region = "us-east-1"
-domain_name = "prodioslabs.com"
-subdomain_name = "webapp"
